@@ -1,0 +1,19 @@
+<div class="row mt-5">
+  <div class="col-12 mt-3 d-flex justify-content-center">
+    <input
+      type="text"
+      [(ngModel)]="customerName"
+      class="mr-1"
+      placeholder="Name"
+    />
+    <button class="btn btn-success boton ml-3" (click)="addCustomer()">
+      Add Customer
+    </button>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12 mt-3 d-flex justify-content-center">
+    <app-customer-list [customerList]="customerList"></app-customer-list>
+  </div>
+</div>

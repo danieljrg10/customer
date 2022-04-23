@@ -1,0 +1,9 @@
+.gris {
+  background-color: #333c44;
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+  color: #30a754;
+  font-weight: bold;
+}
